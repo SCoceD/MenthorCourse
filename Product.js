@@ -52,4 +52,5 @@ Product.prototype.getAverageRating = function () {
     })
     return averageRating / reviews.length;
 };
+
 module.exports = Product;
